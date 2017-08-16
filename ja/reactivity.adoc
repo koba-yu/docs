@@ -112,7 +112,8 @@ view win
 
 === react 
 
-*構文*
+.*構文*
+[source, red]
 ----
 react <code>
 react/unlink <code> <source>
@@ -149,7 +150,8 @@ Returns   : リアクションへの参照のための <code> または <func>
 
 === is 
 
-*構文*
+.*構文*
+[source, red]
 ----
 <word>: is <code>
 
@@ -174,7 +176,8 @@ a/total
 ----
 === react? 
 
-*構文*
+.*構文*
+[source, red]
 ----
 react? <obj> <field>
 react?/target <obj> <field>
@@ -190,7 +193,8 @@ Returns : リアクション（block!またはfunction!）か none! の値
 
 === clear-reactions  
 
-*構文*
+.*構文*
+[source, red]
 ----
 clear-reactions
 ----
@@ -200,7 +204,8 @@ clear-reactions
 
 === dump-reactions 
 
-*構文*
+.*構文*
+[source, red]
 ----
 dump-reactions
 ----
@@ -214,7 +219,8 @@ dump-reactions
 
 === reactor!  
 
-*構文*
+.*構文*
+[source, red]
 ----
 make reactor! <body>
 
@@ -230,7 +236,8 @@ NOTE:ボディブロックは「is」式を含むのが通常です。
 
 === deep-reactor! 
 
-*構文*
+.*構文*
+[source, red]
 ----
 make deep-reactor! <body>
 

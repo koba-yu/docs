@@ -610,7 +610,8 @@ Notes:
 
 == SHOW関数
 
-*構文*
+.*構文*
+[source, red]
 ----
 show <face>
 
@@ -806,7 +807,8 @@ Notes:
 アクターはビューのイベントのためのハンドラ関数です。`actors` ファセットによって参照されるフリーフォームオブジェクト（プロトタイプのないオブジェクト）によって定義されます。全てのアクターのは同じスペックブロックを持ちます。
 
 
-*構文*
+.*構文*
+[source, red]
 ----
 on-<event>: func [face [object!] event [event!]]
 
@@ -856,7 +858,8 @@ Notes:
 
 ==== insert-event-func
 
-*構文*
+.*構文*
+[source, red]
 ----
 insert-event-func <handler>
 
@@ -882,7 +885,8 @@ insert-event-func <handler>
 
 ==== remove-event-func
 
-*構文*
+.*構文*
+[source, red]
 ----
 remove-event-func <handler>
 

@@ -43,7 +43,8 @@ NOTE: `react` キーワードはコンテナ設定レベルでもフェイスオ
 
 === title
 
-*構文*
+.*構文*
+[source, red]
 ----
 title <text>
 
@@ -56,7 +57,8 @@ title <text>
 
 === size
 
-*構文*
+.*構文*
+[source, red]
 ----
 size <value>
 
@@ -68,7 +70,8 @@ size <value>
 
 === backdrop 
 
-*構文*
+.*構文*
+[source, red]
 ----
 backdrop <color>
 
@@ -103,7 +106,8 @@ image::below.png[below,align="center"]
 
 === across 
 
-*構文*
+.*構文*
+[source, red]
 ----
 across <alignment>
 
@@ -116,7 +120,8 @@ across <alignment>
 
 === below 
 
-*構文*
+.*構文*
+[source, red]
 ----
 below <alignment>
 
@@ -129,7 +134,8 @@ below <alignment>
 
 === return 
 
-*構文*
+.*構文*
+[source, red]
 ----
 return <alignment>
 
@@ -142,7 +148,8 @@ return <alignment>
 
 === space 
 
-*構文*
+.*構文*
+[source, red]
 ----
 space <offset>
 
@@ -155,7 +162,8 @@ space <offset>
 
 === origin 
 
-*構文*
+.*構文*
+[source, red]
 ----
 origin <offset>
 
@@ -168,7 +176,8 @@ origin <offset>
 
 === at
 
-*構文*
+.*構文*
+[source, red]
 ----
 at <offset>
 
@@ -181,7 +190,8 @@ at <offset>
 
 === pad 
 
-*構文*
+.*構文*
+[source, red]
 ----
 pad <offset>
 
@@ -194,7 +204,8 @@ pad <offset>
 
 === do 
 
-*構文*
+.*構文*
+[source, red]
 ----
 do <body>
 
@@ -240,7 +251,8 @@ do <body>
 
 フェイスは存在しているフェイスタイプの名前または使用可能なスタイル名を使用して、レイアウト中の現在位置に挿入することができます。
 
-*構文*
+.*構文*
+[source, red]
 ----
 <name>: <type> <options>
 
@@ -264,7 +276,8 @@ NOTE: `window` はフェイスタイプとして使うことはできません�
 
 ==== left
 
-*構文*
+.*構文*
+[source, red]
 ----
 left
 ---- 
@@ -275,7 +288,8 @@ left
 
 ==== center
 
-*構文*
+.*構文*
+[source, red]
 ----
 center
 ----
@@ -286,7 +300,8 @@ center
 
 ==== right
 
-*構文*
+.*構文*
+[source, red]
 ----
 right
 ----
@@ -297,7 +312,8 @@ right
 
 ==== top
 
-*構文*
+.*構文*
+[source, red]
 ----
 top
 ----
@@ -308,7 +324,8 @@ top
 
 ==== middle
 
-*構文*
+.*構文*
+[source, red]
 ----
 middle
 ----
@@ -319,7 +336,8 @@ middle
 
 ==== bottom
 
-*構文*
+.*構文*
+[source, red]
 ----
 bottom
 ----
@@ -330,7 +348,8 @@ bottom
 
 ==== bold
 
-*構文*
+.*構文*
+[source, red]
 ----
 bold
 ----
@@ -341,7 +360,8 @@ bold
 
 ==== italic
 
-*構文*
+.*構文*
+[source, red]
 ----
 italic
 ----
@@ -352,7 +372,8 @@ italic
 
 ==== underline
 
-*構文*
+.*構文*
+[source, red]
 ----
 underline
 ----
@@ -363,7 +384,8 @@ underline
 
 ==== extra
 
-*構文*
+.*構文*
+[source, red]
 ----
 extra <value>
 
@@ -376,7 +398,8 @@ extra <value>
 
 ==== data
 
-*構文*
+.*構文*
+[source, red]
 ----
 data <list>
 
@@ -389,7 +412,8 @@ data <list>
 
 ==== draw
 
-*構文*
+.*構文*
+[source, red]
 ----
 draw <commands>
 
@@ -402,7 +426,8 @@ draw <commands>
 
 ==== font
 
-*構文*
+.*構文*
+[source, red]
 ----
 font <spec>
 
@@ -417,7 +442,8 @@ NOTE: 他のフォントに関する設定に対して `font` を使用するこ
 
 ==== para
 
-*構文*
+.*構文*
+[source, red]
 ----
 para <spec>
 
@@ -432,7 +458,8 @@ NOTE: 他のparaに関する設定に対して `para` を使用することが�
 
 ==== wrap
 
-*構文*
+.*構文*
+[source, red]
 ----
 wrap
 ----
@@ -444,7 +471,8 @@ wrap
 
 ==== no-wrap
 
-*構文*
+.*構文*
+[source, red]
 ----
 no-wrap
 ----
@@ -455,7 +483,8 @@ no-wrap
 
 ==== font-size
 
-*構文*
+.*構文*
+[source, red]
 ----
 font-size <pt>
 
@@ -468,7 +497,8 @@ font-size <pt>
 
 ==== font-color
 
-*構文*
+.*構文*
+[source, red]
 ----
 font-color <value>
 
@@ -481,7 +511,8 @@ font-color <value>
 
 ==== font-name
 
-*構文*
+.*構文*
+[source, red]
 ----
 font-name <name>
 
@@ -496,7 +527,8 @@ font-name <name>
 
 このキーワードはフェイスのオプションとしてもグローバルコンテキストのキーワードとしても使用できます。任意の数の `react` インスタンスを使用できます。
 
-*構文*
+.*構文*
+[source, red]
 ----
 react [<body>]
 react later [<body>]
@@ -514,7 +546,8 @@ NOTE:
 
 ==== loose
 
-*構文*
+.*構文*
+[source, red]
 ----
 loose
 ----
@@ -525,7 +558,8 @@ loose
 
 ==== all-over
 
-*構文*
+.*構文*
+[source, red]
 ----
 all-over
 ----
@@ -536,7 +570,8 @@ all-over
 
 ==== hidden
 
-*構文*
+.*構文*
+[source, red]
 ----
 hidden
 ----
@@ -547,7 +582,8 @@ hidden
 
 ==== disabled
 
-*構文*
+.*構文*
+[source, red]
 ----
 disabled
 ----
@@ -558,7 +594,8 @@ disabled
 
 ==== select
 
-*構文*
+.*構文*
+[source, red]
 ----
 select <index>
 
@@ -571,7 +608,8 @@ select <index>
 
 ==== focus
 
-*構文*
+.*構文*
+[source, red]
 ----
 focus
 ---- 
@@ -581,7 +619,8 @@ focus
 
 ==== hint
 
-*構文*
+.*構文*
+[source, red]
 ----
 hint <message>
 
@@ -594,7 +633,8 @@ hint <message>
 
 ==== rate
 
-*構文*
+.*構文*
+[source, red]
 ----
 rate <value>
 rate <value> now
@@ -608,7 +648,8 @@ rate <value> now
 
 ==== default
 
-*構文*
+.*構文*
+[source, red]
 ----
 default <value>
 
@@ -647,7 +688,8 @@ NOTE: 現在のところ `text` と `field` フェイスでのみ使用されて
 
 アクターはリテラルブロック値かブロック値によって結び付けられるアクターの名前を元にフェイスの変更をフックすることができます。
 
-*構文*
+.*構文*
+[source, red]
 ----
 <actor>
 on-<event> <actor>
@@ -676,7 +718,8 @@ Viewのパネルクラスフェイス型は以下に記載のシンタックス�
 
 === panel 
 
-*構文*
+.*構文*
+[source, red]
 ----
 panel <options> [<content>]
 
@@ -693,7 +736,8 @@ panel <options> [<content>]
 
 === group-box 
 
-*構文*
+.*構文*
+[source, red]
 ----
 group-box <divider> <options> [<body>]
 
@@ -713,7 +757,8 @@ NOTE: オプションとしてstring!値を渡すと、グループボックス�
 
 === tab-panel 
 
-*構文*
+.*構文*
+[source, red]
 ----
 tab-panel <options> [<name> <body>...]
 
@@ -730,7 +775,8 @@ tab-panel <options> [<name> <body>...]
 
 === style 
 
-*構文*
+.*構文*
+[source, red]
 ----
 style <new> <old> <options>
 
